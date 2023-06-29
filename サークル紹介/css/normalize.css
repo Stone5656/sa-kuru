@@ -1,4 +1,8 @@
 @charset "UTF-8";
+body{
+    max-width: 100%;
+}
+
 .header{
     position: relative;
     padding: 15px 0 0;

@@ -27,27 +27,32 @@
       <li><a href="top" title="TOPページ">TOPページ</a></li>
       <li><a href="about" title="サークル紹介">サークル紹介</a></li>
       <li><a href="topic" title="お知らせ">お知らせ</a></li>
-      <li>進行中プロジェクト</li>
-      <li><a href="contact" title="お問い合わせ">お問い合わせ</a></li>
+      <li><a href="project" title="進行中プロジェクト">進行中プロジェクト</a></li>
+      <li>お問い合わせ</li>
     </ul>
       
     </nav>
   </header>
 
 	<main>
-    <section class="announcement-section">
-      <!-- お知らせの内容を記述 -->
-    </section>
-
-    <section class="event-section">
-      <h2>最新のイベント情報</h2>
-      <ul>
-        <!-- 最新のイベント情報の見出しを表示するコード -->
-        <li><a href="event1.html">イベント1</a></li>
-        <li><a href="event2.html">イベント2</a></li>
-        <li><a href="event3.html">イベント3</a></li>
-      </ul>
-    </section>
+    <form class="form">
+      <div class="form-group">
+        <label for="name" class="form-label">お名前</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="email" class="form-label">メールアドレス</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="message" class="form-label">メッセージ</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+  
+      <button type="submit" class="form-btn">送信</button>
+    </form>
   </main>
 
   <footer class="footer">
